@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const client = require('fhir-kit-client');
-const Client = require('fhir-kit-client');
 const fhirClient = new Client({
-  baseUrl: 'http://129.254.63.252:8888'
+  baseUrl: 'http://hapi.fhir.org/baseR4'
 })
 
 /* GET home page. */
