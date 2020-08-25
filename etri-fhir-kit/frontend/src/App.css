@@ -1,14 +1,15 @@
 @import '~antd/dist/antd.css';
 
 .App-header {
-  background-color: #087ca7;
+  background-color: #151616;
 }
 
 .App-header h1 {
   color: whitesmoke;
 }
 
-.App-header, .App-footer {
+.App-header,
+.App-footer {
   text-align: center;
 }
 
@@ -36,6 +37,11 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
