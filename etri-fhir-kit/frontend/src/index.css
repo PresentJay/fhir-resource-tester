@@ -92,6 +92,7 @@ a {
   position: absolute;
   top: 58px;
   width: 300px;
+  height: auto !important;
   transform: translateX(-45%);
   background-color: var(--bg);
   border: var(--border);

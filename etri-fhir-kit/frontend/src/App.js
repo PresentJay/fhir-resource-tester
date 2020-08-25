@@ -180,9 +180,6 @@ class App extends Component {
             <DropdownMenu />
           </NavItem>
         </Navbar>
-        <Header className="App-header">
-          <h1>fhir-resource-tester (Fhir-kit-client)</h1>
-        </Header>
         <Content className="App-content">
           <Row>
             <Col span={10} offset={7}>
